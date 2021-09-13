@@ -1,0 +1,329 @@
+
+#card{
+
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 50%;
+    position: absolute;
+    top: 22%;
+    left: 25%;
+
+}
+
+#card-container{
+
+    display: flex;
+
+}
+
+#social-media{
+
+    background-color: white;
+    /* margin: 20% 13% 27% 2%; */
+    /* padding: 10%; */
+    width: 34%;
+    text-align: center;
+    position: absolute;
+    top: 39%;
+    left: 19%;
+    /* width: 14%; */
+    display: flex;
+}
+
+#social-media h2{
+
+    font-size: 1.5em;
+    color: #0000ff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0.5em 5px 0.5em auto
+}
+
+#icons{
+
+    margin: 8px;
+    width: 50%;
+
+}
+
+#icons i{
+
+    border-radius: 50%;
+    padding: 5%;
+    font-size: 1.25em;
+    margin: 0 2.5px;
+    color: white;
+    background-color: #0000ff;
+    transition: 0.5s;
+
+}
+
+#icons i:hover{
+
+    transform: scale(1.2);
+    cursor: pointer;
+
+}
+
+
+#contact{
+
+    background-color: #0000ff;
+    /* margin: 20% 13% 27% 2%; */
+    /* padding: 10%; */
+    width: 31%;
+    text-align: center;
+    position: absolute;
+    top: 39%;
+    left: 55%;
+}
+
+#contact h2{
+
+    font-size: 1em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1.05em auto;
+
+}
+
+
+/*EMPIEZA RESPONSIVE 1*/
+@media (min-width: 1025px) and (max-width: 1440px){
+ #icons i{
+
+    margin: 0px 1.5px;
+
+ }
+}
+
+
+/*TERMINA RESPONSIVE 1*/
+/*EMPIEZA RESPONSIVE 2*/
+@media (min-width: 769px) and (max-width: 1024px){
+
+    #social-media h2{
+
+        font-size: 1.1em;
+
+    }
+
+    #icons i {
+
+        font-size: 1em;
+        margin: 0 0.5px;
+
+    }
+    
+    #contact{
+
+        width: 39%;
+
+    }
+    
+    #social-media{
+   
+       padding: 4px 0;
+       left: 17%;
+       width: 36%;
+   
+    }
+   }
+
+/*TERMINA RESPONSIVE 2*/
+/*EMPIEZA RESPONSIVE 3*/
+@media (min-width: 426px) and (max-width: 768px){
+
+    body{
+
+        background-color: #E7E9FF;
+
+    }
+
+    #card{
+
+        background-image: url("../img/bgm.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 75vh;
+        width: 50%;
+        position: absolute;
+        top: 12.5%;
+        left: 25%;
+    
+    }
+
+    #social-media{
+
+        width: 65%;
+        top: 33%;
+        left: 33%;    
+
+    }
+
+    #contact{
+
+        width: 58%;
+        top: 78%;
+        left: 17%;
+
+    }
+
+   }
+
+/*TERMINA RESPONSIVE 3*/
+/*EMPIEZA RESPONSIVE 4*/
+@media (min-width: 376px) and (max-width: 426px){
+
+    body{
+
+        background-color: #E7E9FF;
+
+    }
+
+    #card{
+
+        background-image: url("../img/bgm.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 80vh;
+        width: 65%;
+        position: absolute;
+        top: 10.5%;
+        left: 19%;
+    }
+
+    #social-media{
+
+        width: 74%;
+        top: 35%;
+        left: 31%;
+    }
+
+    #social-media h2{
+
+        font-size: 1.25em;
+
+    }
+
+    #icons i{
+
+        margin: 0 1.5px;
+        font-size: 1em;
+
+    }
+
+    #contact{
+
+        width: 76%;
+        top: 74%;
+        left: 6%;
+    }
+
+   }
+
+/*TERMINA RESPONSIVE 4*/
+/*EMPIEZA RESPONSIVE 5*/
+@media (min-width: 321px) and (max-width: 376px){
+
+    body{
+
+        background-color: #E7E9FF;
+
+    }
+
+    #card{
+
+        background-image: url("../img/bgm.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 82vh;
+        width: 73%;
+        position: absolute;
+        top: 10.5%;
+        left: 15%;  
+    }
+
+    #social-media{
+
+        width: 84%;
+        top: 35%;
+        left: 28%   
+    }
+
+    #social-media h2{
+
+        font-size: 1.25em;
+
+    }
+
+    #icons i{
+
+        margin: 0 1.5px;
+        font-size: 1em;
+
+    }
+
+    #contact{
+
+        width: 81%;
+        top: 74%;
+        left: 2%;
+    }
+   }
+
+/*TERMINA RESPONSIVE 4*/
+/*EMPIEZA RESPONSIVE 5*/
+@media (min-width: 0px) and (max-width: 322px){
+
+    body{
+
+        background-color: #E7E9FF;
+
+    }
+
+    #card{
+
+        background-image: url("../img/bgm.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 82vh;
+        width: 88%;
+        position: absolute;
+        top: 10%;
+        left: 9%;
+    }
+
+    #social-media{
+
+        width: 84%;
+        top: 35%;
+        left: 17%;  
+    }
+
+    #social-media h2{
+
+        font-size: 1.25em;
+
+    }
+
+    #icons i{
+
+        margin: 0 1.5px;
+        font-size: 1em;
+
+    }
+
+    #contact{
+
+        width: 75%;
+        top: 74%;
+        left: 7%;
+    }
+   }
